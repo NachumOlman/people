@@ -1,0 +1,84 @@
+#container {
+  width: 25%;
+  margin: auto;
+  text-align: center;
+}
+
+.people {
+  list-style-type: none;
+  margin: auto;
+  text-align: left;
+  border-radius: 5px;
+  background-color: #ccffcc;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#list-container {
+  margin-top: 30px;
+}
+
+.person {
+  font-family: 'MuseoModerno', cursive;
+  font-size: medium;
+  cursor: default;
+  width: 80%;
+  padding: 5px;
+  margin-top: 3px;
+  background-color: #33ff33;
+  transition-duration: 0.3s;
+  border-radius: 12px;
+}
+
+.person:hover {
+  color: #607D8B;
+  background-color: #80ff80;
+}
+
+.delete {
+  float: right;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  font-size: medium;
+  background-color: #ff3333;
+  color: white;
+}
+
+.delete:hover {
+  color: black;
+  background-color: #ff4d4d;
+  transition-duration: 0.3s;
+}
+
+.edit {
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.edit:hover {
+  background-color: #e6ffe6;
+}
+
+.button {
+  background-color: #47d147;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: right;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 15px;
+  border-radius: 50%;
+}
+
+.button:hover {
+  color: #607D8B;
+  background-color: #5cd65c;
+  transition-duration: 0.3s;
+}

@@ -1,0 +1,20 @@
+<div id="container">
+	<app-person-search></app-person-search>
+
+	<div id = "list-container">
+		<ul class="people">
+		  <li *ngFor="let person of people" (@flyInOut.done)="titleAdd()"
+        	[@flyInOut]="'in'" class="person">
+	 	   {{person.firstname}} {{person.lastname}}
+			<button class="edit" title="edit person"
+			(click)="edit(person)">Edit</button>
+	 	   <button class="delete" title="delete person"
+			(click)="delete(person)">x</button>
+		  </li>
+		</ul>
+	</div>
+
+	<button class="button" (click)="titleAdd();openDialog();">+</button>
+
+	<app-scroll-top></app-scroll-top>
+</div>
